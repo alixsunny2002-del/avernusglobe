@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Globe with Country Carousel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="hologram/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <style>
+    body { margin:0; background:black; }
+    #myearth { width:100vw; height:100vh; }
+  </style>
+</head>
+<body>
+	<div class="header">
+		<h1 class="heading">Our Presence</h1>
+		<h2 class="sub-heading">Our global collaborations</h2>
+	</div>
+  <div id="myearth">
+<div id="glow"></div>
+  </div>
+  
+<img  id="swiper-back" src="images/back-btn.svg" alt="">
+  <div class="swiper" id="vertical-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s1"><a href="#" class="regions" data-country="India"><span>ASIA</span></a></div>
+      <div class="swiper-slide s2"><a href="#" class="regions" data-country="Europe"><span>EUROPE</span></a></div>
+      <div class="swiper-slide s3"><a href="#" class="regions" data-country="North America"><span>NORTH AMERICA</span></a></div>
+      <div class="swiper-slide s4"><a href="#" class="regions" data-country="Africa"><span>AFRICA</span></a></div>
+      <div class="swiper-slide s1"><a href="#" class="regions" data-country="India"><span>ASIA</span></a></div>
+      <div class="swiper-slide s2"><a href="#" class="regions" data-country="Europe"><span>EUROPE</span></a></div>
+      <div class="swiper-slide s3"><a href="#" class="regions" data-country="North America"><span>NORTH AMERICA</span></a></div>
+      <div class="swiper-slide s4"><a href="#" class="regions" data-country="Africa"><span>AFRICA</span></a></div>
+    </div>
+	<!-- <div id="countries">
+		<div class="country-head">
+			<div class="heading">OUR PRESENCE</div>
+			<div class="sub-head">INDIA</div>
+		</div>
+		<div class="places"></div>
+	</div> -->
+    <!-- Optional pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="../miniature.earth.core.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script/index.js"></script>
+  <script>
+
+  </script>
+</body>
+</html>
